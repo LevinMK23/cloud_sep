@@ -12,6 +12,7 @@
         <module>client</module>
         <module>server</module>
         <module>nio-examples</module>
+        <module>netty-server</module>
     </modules>
 
 
