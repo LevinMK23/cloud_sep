@@ -21,6 +21,11 @@ public class Util {
         NioSocketChannel channel;
         ChunkedFile chunkedFile = new ChunkedFile(new File(""), 8192);
         // chunkedFile.readChunk(null);
-
+        Person person = Person.builder()
+                .setName("Ivan")
+                .setSurname("Ivanov")
+                .setFatherName("Ivanovich")
+                .setEmail("ivanov@mail.ru")
+                .build();
     }
 }
